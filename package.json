@@ -1,0 +1,27 @@
+{
+	"name": "simple-ap-demo",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "svelte-kit dev",
+		"build": "svelte-kit build",
+		"start": "svelte-kit start",
+		"lint": "prettier --check . && eslint --ignore-path .gitignore .",
+		"format": "prettier --write ."
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-vercel": "next",
+		"@sveltejs/kit": "next",
+		"eslint": "^7.32.0",
+		"eslint-config-prettier": "^8.3.0",
+		"eslint-plugin-svelte3": "^3.2.1",
+		"prettier": "~2.4.1",
+		"prettier-plugin-svelte": "^2.4.0",
+		"sass": "^1.42.0",
+		"svelte": "^3.42.6",
+		"svelte-preprocess": "^4.9.5"
+	},
+	"type": "module",
+	"dependencies": {
+		"svelte-json-tree": "git+https://github.com/nosovk/svelte-json-tree"
+	}
+}
